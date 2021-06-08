@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Prática API</title>
+
+  <!-- Chamo o CSS do Bootstrap -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Chamo o arquivo CSS próprio -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Início da Navbar, o arquivo irá de reptir em demais páginas, pois não usamos nenhum conceito avançado, apenas HTML e JavaScript de forma simples-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">O que é uma API?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Integrantes</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Fim da Navbar -->
+
+  <header class="bg-primary text-white">
+    <div class="container text-center">
+      <h1>Exercício Prático - FetchApi</h1>
+      <p class="lead">Apresentaremos a seguir uma explanação sobre o que é uma API bem com sua funcionalidade. Clique nos botões abaixo e verão alguns exemplo de páginas utilizando API.</p>
+      <a href="views/api_dog.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Exemplo 1</a>
+      <a href="views/fetch_api.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Exemplo 2</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>O que é API e como funciona?</h2>
+          <p class="lead" style="text-align: justify;">A sigla API deriva da expressão inglesa Application Programming Interface que, traduzida para o português, pode ser compreendida como uma interface de programação de aplicação. Ou seja, API é um conjunto de normas que possibilita a comunicação entre plataformas através de uma série de padrões e protocolos. Por meio de APIs, desenvolvedores podem criar novos softwares e aplicativos capazes de se comunicar com outras plataformas. Por exemplo: caso um desenvolvedor queira criar um aplicativo de fotos para Android, ele poderá ter acesso à câmera do celular através da API do sistema operacional, sem ter a necessidade de criar uma nova interface de câmera do zero. O mesmo acontece com aplicativos que utilizam os serviços de mapas por meio da API do Google Maps ou, ainda, nas integrações entre apps, como o Spotify e o Instagram, que possibilita compartilhar faixas nos Stories.</p>
+          <p class="lead" style="text-align: justify;">A função de uma API é, basicamente, facilitar e simplificar o trabalho de desenvolvedores, além de oferecer um padrão para a criação de novas plataformas. Com o uso das APIs, não é necessário criar códigos personalizados para cada função que um programa for executar, o que simplifica a criação de novos aplicativos, softwares e plataformas em geral. Além disso, as APIs também possuem papel fundamental quando o assunto é segurança, já que também são capazes de bloquear acesso e permissões a dados de software e hardware que algumas aplicações não podem usar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Componentes do Grupo</h2>
+            <ul class="list">
+              <li class="list-item">Gabriel Martins Ferreira</li>
+              <li class="list-item">Dayvidson Henrique Moreira da Silva</li>
+              <li class="list-item">Matheus Lisboa Medeiros</li>
+              <li class="list-item">Marcos Alves Ramos</li>
+              <li class="list-item">Jonathan da Silva Araujo</li>
+              <li class="list-item">Pedro Henrique de Sousa Rocha Correa</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Centro Universitário Una</p>
+      <p class="m-0 text-center text-white">Betim - 2021</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Chamo o pacote do bootstrap -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Chamo o plugin do Jquery -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Chamo o JS do Bootstrap responsável por realizar o scrolling da página -->
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
+
+</html>
